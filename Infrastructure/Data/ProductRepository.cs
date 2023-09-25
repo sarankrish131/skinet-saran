@@ -1,4 +1,3 @@
-using System.Security.Cryptography.X509Certificates;
 using Core.Entities;
 using Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -7,7 +6,7 @@ namespace Infrastructure.Data
 {
     public class ProductRepository : IProductRepository
     {
-        private readonly StoreContext _context;
+        private readonly StoreContext _context; 
         public ProductRepository(StoreContext context)
         {
             _context = context;

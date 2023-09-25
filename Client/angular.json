@@ -49,7 +49,7 @@
                 }
               ],
               "outputHashing": "all"
-            },
+              },
             "development": {
               "buildOptimizer": false,
               "optimization": false,
